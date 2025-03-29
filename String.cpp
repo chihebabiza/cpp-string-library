@@ -9,7 +9,7 @@ int main()
 {
     ClsString String1;
 
-    ClsString String2("Mohammed");
+    ClsString String2("Chiheb");
 
     String1.Value = "Ali Ahmed";
 
@@ -20,7 +20,7 @@ int main()
 
     cout << "Number of words: " << String1.CountWords("Fadi ahmed rateb omer") << endl;
 
-    cout << "Number of words: " << ClsString::CountWords("Mohammed Saqer Abu-Hadhoud") << endl;
+    cout << "Number of words: " << ClsString::CountWords("chiheb mohammed abiza") << endl;
 
     //----------------
     ClsString String3("hi how are you?");
@@ -65,13 +65,13 @@ int main()
     //----------------
 
     cout << "Capital Letters count : "
-         << ClsString::CountLetters("Mohammed Abu-Hadhoud", ClsString::CapitalLetters)
+         << ClsString::CountLetters("Chiheb abiza", ClsString::CapitalLetters)
          << endl
          << endl;
 
     //----------------
 
-    String3.Value = "Welcome to Jordan";
+    String3.Value = "Welcome to Algeria";
     cout << String3.Value << endl;
 
     cout << "Capital Letters count :" << String3.CountCapitalLetters() << endl;
@@ -114,22 +114,22 @@ int main()
     //----------------
 
     // Tirms
-    String3.Value = "    Mohammed Abu-Hahdoud     ";
+    String3.Value = "    Chiheb abiza     ";
     cout << "\nString     = " << String3.Value;
 
-    String3.Value = "    Mohammed Abu-Hahdoud     ";
+    String3.Value = "    Chiheb abiza     ";
     String3.TrimLeft();
     cout << "\n\nTrim Left  = " << String3.Value;
 
     //----------------
 
-    String3.Value = "    Mohammed Abu-Hahdoud     ";
+    String3.Value = "    Chiheb abiza     ";
     String3.TrimRight();
     cout << "\nTrim Right = " << String3.Value;
 
     //----------------
 
-    String3.Value = "    Mohammed Abu-Hahdoud     ";
+    String3.Value = "    Chiheb abiza     ";
     String3.Trim();
     cout << "\nTrim       = " << String3.Value;
 
@@ -148,7 +148,7 @@ int main()
 
     //----------------
 
-    String3.Value = "Mohammed Saqer Abu-Hahdoud";
+    String3.Value = "Chiheb setif abiza";
     cout << "\n\nString     = " << String3.Value;
 
     String3.ReverseWordsInString();
@@ -157,7 +157,7 @@ int main()
 
     //---------------
 
-    String3.Value = "Mohammed Saqer Abu-Hahdoud";
+    String3.Value = "Chiheb algeria abiza";
     cout << "\nReplace : " << String3.ReplaceWord("Mohammed", "Sari")
          << endl;
 
