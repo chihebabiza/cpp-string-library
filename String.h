@@ -1,5 +1,6 @@
-#pragma once
-
+// MIT License
+// Copyright (c) 2025 Abiza Chiheb
+// See the LICENSE file for full details.#pragma once
 #include <iostream>
 #include <vector>
 
