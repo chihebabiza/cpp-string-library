@@ -215,7 +215,7 @@ int main()
 Feel free to contribute by submitting pull requests, reporting issues, or suggesting new features.
 
 ## License
-This project is licensed under the MIT License. It is open source, meaning anyone can use, modify, and distribute it under the terms of the license.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 Developed by Chiheb Abiza
