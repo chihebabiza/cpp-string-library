@@ -32,8 +32,6 @@ public:
         return _Value;
     }
 
-    __declspec(property(get = GetValue, put = SetValue)) string Value;
-
     static short Length(string S1)
     {
         return S1.length();
