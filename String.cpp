@@ -2,14 +2,14 @@
 // Copyright (c) 2025 Abiza Chiheb
 // See the LICENSE file for full details.
 #include <iostream>
-#include "String.h"
+#include "clsString.h"
 
 using namespace std;
 
 int main()
 {
-     ClsString String1;
-     ClsString String2("Chiheb");
+     clsString String1;
+     clsString String2("Chiheb");
 
      String1.SetValue("Ali Ahmed");
 
@@ -18,10 +18,10 @@ int main()
 
      cout << "Number of words: " << String1.CountWords() << endl;
      cout << "Number of words: " << String1.CountWords("Fadi ahmed rateb omer") << endl;
-     cout << "Number of words: " << ClsString::CountWords("chiheb mohammed abiza") << endl;
+     cout << "Number of words: " << clsString::CountWords("chiheb mohammed abiza") << endl;
 
      //----------------
-     ClsString String3("hi how are you?");
+     clsString String3("hi how are you?");
      cout << "String 3 = " << String3.GetValue() << endl;
      cout << "String Length = " << String3.Length() << endl;
 
@@ -42,7 +42,7 @@ int main()
 
      //----------------
      cout << "After inverting a : "
-          << ClsString::InvertLetterCase('a') << endl;
+          << clsString::InvertLetterCase('a') << endl;
 
      //----------------
      String3.SetValue("AbCdEfg");
@@ -54,7 +54,7 @@ int main()
 
      //----------------
      cout << "Capital Letters count : "
-          << ClsString::CountLetters("Chiheb abiza", ClsString::CapitalLetters)
+          << clsString::CountLetters("Chiheb abiza", clsString::CapitalLetters)
           << endl
           << endl;
 
@@ -74,7 +74,7 @@ int main()
      cout << "letter E count :" << String3.CountSpecificLetter('E', false) << endl;
 
      //----------------
-     cout << "is letter u vowel? " << ClsString::IsVowel('a')
+     cout << "is letter u vowel? " << clsString::IsVowel('a')
           << endl;
 
      //----------------
@@ -114,11 +114,11 @@ int main()
      // Joins
      vector<string> vString1 = {"Mohammed", "Faid", "Ali", "Maher"};
      cout << "\n\nJoin String From Vector: \n";
-     cout << ClsString::JoinString(vString1, " ");
+     cout << clsString::JoinString(vString1, " ");
 
      string arrString[] = {"Mohammed", "Faid", "Ali", "Maher"};
      cout << "\n\nJoin String From array: \n";
-     cout << ClsString::JoinString(arrString, 4, " ");
+     cout << clsString::JoinString(arrString, 4, " ");
 
      //----------------
      String3.SetValue("Chiheb setif abiza");
